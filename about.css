@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 20px;
+    background: linear-gradient(45deg,rgb(75, 12, 17),rgb(245, 87, 100));
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 800;
+    cursor: default;
+}
+.logo:hover{
+    background: white;
+    color: rgb(245, 87, 100);
+}
+.navbar a {
+    display: inline-block;
+    font-size: 1em;
+    color: rgb(245, 87, 100);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    background: linear-gradient(45deg,rgb(75, 12, 17),rgb(245, 87, 100));
+    color: white
+}
+.hd{
+    color: rgb(245, 87, 100);
+    text-align: center;
+    padding-top: 10%;
+}
+.wdp{
+    border: 2px solid;
+    border-color: rgb(245, 87, 100);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.pr{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+}

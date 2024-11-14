@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(163, 114, 114);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 20px;
+    background: linear-gradient(45deg,rgb(75, 12, 17),rgb(245, 87, 100));
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 800;
+    cursor: default;
+}
+.logo:hover{
+    background: black;
+    color: rgb(245, 87, 100);
+}
+.navbar a {
+    display: inline-block;
+    font-size: 1em;
+    color: rgb(245, 87, 100);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.navbar a:hover,
+.navbar a.active{
+    background: linear-gradient(45deg,rgb(75, 12, 17),rgb(245, 87, 100));
+    color: black
+}
+.hd{
+    color: rgb(245, 87, 100);
+    text-align: center;
+    padding-top: 10%;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 80px;
+    justify-content: space-between;
+}
+.html{
+    height:60px;
+    border-radius: 70px;
+    background-color: white;
+    
+}
+.css{
+    height: 60px;
+    border-radius: 70px;
+    background: white;
+}
+.py{
+    height: 60px;
+    border-radius: 70px;
+    background: white;
+}
+.gt{
+    height: 60px;
+    border-radius: 70px;
+    background: white;
+}
+.ms{
+    height: 60px;
+    border-radius: 70px;
+    background: white;
+}
+.tk{
+    height: 60px;
+    border-radius: 70px;
+    background: white;
+}
+.skills p{
+    color: white;
+    text-align: center;
+}
